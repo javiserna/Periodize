@@ -3,21 +3,26 @@
 # A perfect python repository for estimating the rotation period of light curves files
 
 
+### Features
+This repository uses the Lomb-Scargle periodogram to estimate the rotation period of the signal and statistical techniques for estimating the uncertainty of the period.
 
-### This repository contains three modes:
-
->- Estimate the period of the 
-
->- script to estimate the period and uncertainty of the light curve.
-
->- 
-
+This repo contains three executable modes:
+* (Period.py) Simple estimation of the period 
+* (Periodize.py) Estimation of the period and uncertainty using the bootstrap method to resample the light curve within the flux error bars.
+* (Periodize_paralelized.py) Same as the periodize.py but using multithreads, notoriously improve the computing time.
 
 ### Input requirement
 
+* A CSV file with three columns called ("time", "magnitude or flux", "magnitude_err or flux_err").
+
+Periodize was think to be used with the light curves files from the TESSExtractor application. So, search for the target of interest in the app and download the input file to feed Periodize.
+
+
+### Output
+
 >- A CSV file with three columns called ("time", "magnitude or flux", "magnitude_err or flux_err").
 
-Periodize is thought to be used with the light curves files from the TESSExtractor application. Just search for the target of interest in the app and download the input file to Periodize.
+Periodize was think to be used with the light curves files from the TESSExtractor application. So, search for the target of interest in the app and download the input file to feed Periodize.
 
 
 #### How to use?
