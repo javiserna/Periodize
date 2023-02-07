@@ -17,13 +17,9 @@ This repo contains three executable modes:
 
 Periodize was think to be used with the light curves files from the TESSExtractor application. So, search for the target of interest in the app and download the input file to feed Periodize.
 
-
 ### Output
 
->- A CSV file with three columns called ("time", "magnitude or flux", "magnitude_err or flux_err").
-
-Periodize was think to be used with the light curves files from the TESSExtractor application. So, search for the target of interest in the app and download the input file to feed Periodize.
-
+Period and period uncertainty 
 
 #### How to use?
 Locate at the repository folder and execute in terminal:
@@ -32,9 +28,10 @@ Locate at the repository folder and execute in terminal:
 $ python periodize.py "input_file.csv"
 ```
 
-
-
 Feel free to use this app in any scientific project!
+
+Any question or comments just email me:
+jserna@astro.unam.mx
 
 >#### Please cite:
 >
