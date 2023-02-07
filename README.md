@@ -2,6 +2,8 @@
 
 # A perfect python repository for estimating the rotation period of light curves files
 
+#### How to use?
+
 
 Feel free to use this app in any scientific project!
 
