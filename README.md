@@ -25,6 +25,7 @@ Locate at the repository folder and execute in terminal:
 
 ```zsh
 $ python periodize.py "input_file.csv"
+```
 
 
 
