@@ -23,8 +23,8 @@ Periodize is thought to be used with the light curves files from the TESSExtract
 #### How to use?
 Locate at the repository folder and execute in terminal:
 
-python 
-
+```zsh
+$ python periodize.py "input_file.csv"
 
 
 
