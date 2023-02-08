@@ -6,8 +6,7 @@
 ### Features
 This repository uses the Lomb-Scargle periodogram to estimate the rotation period of the signal and statistical techniques for estimating the uncertainty of the period.
 
-This repo contains three executable modules:
-* (Period.py) Simple estimation of the period 
+This repo contains two executable modules:
 * (Periodizer.py) Estimation of the period and uncertainty using the bootstrap method to resample the light curve within the flux error bars.
 * (Periodizer_parallelized.py) Same as the periodize.py but using multithreads, notoriously improve the computing time.
 
@@ -26,7 +25,6 @@ The period and its uncertainty
 Locate at the repository folder and execute in terminal the module you desire:
 
 ```zsh
-$ python period.py "input_file.csv"
 
 $ python periodizer.py "input_file.csv"
 
