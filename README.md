@@ -14,8 +14,8 @@ This repo contains two executable modules:
 
 * A CSV file with three columns called: "time", "magnitude or flux", "magnitude_err or flux_err".
 
-Periodizer was made to be used with the light curves files from the TESSExtractor application. However, that is not a  prerequisite, it really could be used with any data file in the format previously described. 
-A straightforward way to search the light curve of the target of interest is by using the app TESSExtractor and downloading the input file to feed Periodizer.
+Periodizer was made to be used with the light curves files from the [TESSExtractor](https://www.tessextractor.app/) application. However, that is not a  prerequisite, it really could be used with any data file in the format previously described. 
+A straightforward way to search the light curve of the target of interest is by using the app [TESSExtractor](https://www.tessextractor.app/) and downloading the input file to feed Periodizer.
 
 ### Output
 
