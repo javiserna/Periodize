@@ -11,7 +11,8 @@ This repo contains two executable modules:
 * (Periodizer_parallelized.py) Same as the periodize.py but using multithreads, notoriously improve the computing time.
 
 ### To do
-* Include statistical parameters to analyze the periodicity of the light curve
+* Include statistical parameters to analyze the periodicity of the light curve (like Cody).
+* Support a general ascii file with three columns. 
 
 ### Input requirement
 
