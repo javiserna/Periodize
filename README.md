@@ -20,16 +20,16 @@ A straightforward way to search the light curve of the target of interest is by 
 
 ### Output
 
-The period and its uncertainty 
+The period and its uncertainty
 
 #### How to use?
 Locate at the repository folder and execute in terminal the module you desire:
 
 ```zsh
 $ python period.py "input_file.csv"
-or
+
 $ python periodizer.py "input_file.csv"
-or
+
 $ python periodizer_parallelized.py "input_file.csv"
 
 ```
@@ -41,7 +41,7 @@ jserna@astro.unam.mx
 
 >#### Please cite:
 >
->- _Serna et al (2021)_. [ApJ 923 177](https://doi.org/10.3847/1538-4357/AC300A)
+>- _Serna et al (2021) [ApJ 923 177](https://doi.org/10.3847/1538-4357/AC300A)
 > 
 
 Copyright© 2023.
