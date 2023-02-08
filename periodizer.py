@@ -150,7 +150,7 @@ if __name__ == "__main__":
 	flux_err=lc['mag_err']
 	newlc=[]
 	Prot=[]
-	n=100
+	n=100 # Synthetic light curve number for Bootstrap
 
 	for i in range(len(flux)):
 		y=bootstrap.errfunction(flux[i], flux_err[i], n)
@@ -168,7 +168,7 @@ if __name__ == "__main__":
 		periodogram_inverse=interp1d(periodogram['power'],periodogram['periods'])
 		fm=max(periodogram_curve(maxima))
 		period=periodogram_inverse(fm)
-		Prot.append(period)
+		Prot.append(period) #Period array
 
 	Prot=np.array(Prot)
 	if np.std(Prot)==0:
