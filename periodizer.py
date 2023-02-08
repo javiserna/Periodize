@@ -15,9 +15,9 @@ from scipy.signal import find_peaks_cwt
 from scipy.signal import hilbert
 from scipy.signal import find_peaks
 from scipy.fftpack import fft,fftfreq
-from PyAstronomy.pyasl import foldAt
+#from PyAstronomy.pyasl import foldAt
 from scipy.interpolate import interp1d
-from PyAstronomy.pyasl import foldAt
+#from PyAstronomy.pyasl import foldAt
 from astropy.stats import median_absolute_deviation
 import bootstrap
 import scipy.optimize
