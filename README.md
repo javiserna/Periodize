@@ -1,4 +1,4 @@
-<img src="https://github.com/javiserna/Periodize/blob/main/periodize_logo.png?raw=true"/>
+<img src="https://github.com/javiserna/Periodize/blob/main/periodizer_logo.png?raw=true"/>
 
 # A perfect python repository for estimating the rotation period of light curves files
 
