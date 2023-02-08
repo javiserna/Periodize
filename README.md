@@ -10,6 +10,9 @@ This repo contains two executable modules:
 * (Periodizer.py) Estimation of the period and uncertainty using the bootstrap method to resample the light curve within the flux error bars.
 * (Periodizer_parallelized.py) Same as the periodize.py but using multithreads, notoriously improve the computing time.
 
+### To do
+* Include statistical parameters to analyze the periodicity of the light curve
+
 ### Input requirement
 
 * A CSV file with three columns called: "time", "magnitude or flux", "magnitude_err or flux_err".
