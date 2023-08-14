@@ -159,7 +159,7 @@ if __name__ == "__main__":
 
 
 	for i in range(len(flux)):
-		y=bootstrap.errfunction(flux[i], flux_err[i], np1)
+		y=bootstrap.errfunction(flux[i], flux_err[i], nmc1)
 		newlc.append(y)
 	newlc=np.array(newlc)
 #	periods = np.logspace(minP, maxP, num=np1) #100 steps in the period range. May you consider to change by 1000 in particular cases (increase the computing time).
