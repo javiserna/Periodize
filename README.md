@@ -1,6 +1,6 @@
 <img src="https://github.com/javiserna/Periodize/blob/main/periodizer_logo.png?raw=true"/>
 
-# A perfect python repository for estimating the rotation period of light curve files
+# A perfect Python repository for estimating the rotation period and its uncertainty from light curve files
 
 
 ### Features
@@ -11,26 +11,26 @@ This repository uses the Lomb-Scargle periodogram to estimate the rotation perio
 
 This repo contains two executable modules:
 * (Periodizer.py) Estimation of the period and uncertainty using the bootstrap method to resample the light curve within the flux error bars.
-* (Periodizer_parallelized.py) Same as the periodize.py but using multithreads, notoriously improve the computing time.
+* (Periodizer_parallelized.py) Same as the periodize.py but using multithreads, notoriously improves the computing time.
 
 ### To do
 * Include statistical parameters to analyze the periodicity of the light curve (like Cody).
-* Support a general ascii file with three columns. 
-* Modify the error estimation based on the logaritmic step average.
+* Support a general ASCII file with three columns. 
+* Modify the error estimation based on the logarithmic step average.
 
 ### Input requirement
 
-* A CSV file with three columns called: "time", "magnitude or flux", "magnitude_err or flux_err".
+* A CSV file with three columns called: "time", "magnitude or flux", "magnitude_err, or flux_err".
 
-Periodizer was made to be used with the light curves files from the [TESSExtractor](https://www.tessextractor.app/) application. However, that is not a  prerequisite, it really could be used with any data file in the format previously described. 
+The periodizer was made to be used with the light curves files from the [TESSExtractor](https://www.tessextractor.app/) application. However, that is not a  prerequisite, it really could be used with any data file in the format previously described. 
 A straightforward way to search the light curve of the target of interest is by using the app [TESSExtractor](https://www.tessextractor.app/) and downloading the input file to feed Periodizer.
 
 ### Output
 
 The period and its uncertainty
 
-#### How to use?
-Locate at the repository folder and execute in terminal the module you desire:
+#### How to use it?
+Locate the repository folder and execute in the terminal the module you desire:
 
 ```zsh
 
@@ -42,7 +42,7 @@ $ python periodizer_parallelized.py "input_file.csv"
 
 Feel free to use this app in any scientific project!
 
-Any question or comments just email me:
+Any questions or comments just email me:
 jserna@astro.unam.mx
 
 >#### Please cite:
